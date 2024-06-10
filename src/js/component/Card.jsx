@@ -4,7 +4,7 @@ const Card = () => {
 	return (
         <div className="card m-5">
 
-            <img className="card-img-top" src="..." alt="Card image cap" />
+            <img className="card-img-top" src="https://adictosaltrabajo.com/wp-content/uploads/2020/10/ReactBackground.png" alt="Card image cap" />
 
             <div className="card-body">
 

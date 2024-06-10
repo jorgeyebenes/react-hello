@@ -2,18 +2,16 @@ import React from "react";
 
 const NavBar = () => {
 	return (
-        <nav className="navbar navbar-inverse">
-        <div className="container-fluid d-flex">
+      <nav className="navbar navbar-dark bg-dark justify-content-between">
           <div className="navbar-header">
             <a className="navbar-brand" href="https://getbootstrap.com/">Start Bootstrap</a>
           </div>
-          <ul className="nav navbar-nav">
-            <li className="active"><a href="https://getbootstrap.com/">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
-        </div>
+
+          <div className="navbar-nav">
+                <a className="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                <a className="nav-item nav-link" href="#">Features</a>
+                <a className="nav-item nav-link" href="#">Pricing</a>
+          </div>
       </nav>
     );
 };
